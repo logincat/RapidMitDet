@@ -1,0 +1,18 @@
+# YOLOv5 🚀 by Ultralytics, AGPL-3.0 license
+# COCO 2017 dataset http://cocodataset.org by Microsoft
+# Example usage: python train.py --data coco.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco  ← downloads here (20.1 GB)
+
+
+path: ./dataset/MIDOG2021/det
+train: images/train
+val: images/val
+test: images/val
+
+nc: 1
+names:
+  0: mitosis
+
